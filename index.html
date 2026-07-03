@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia de Acessibilidade: Google Calendar</title>
+    <title>Guia de Acessibilidade: Ferramentas de Organização</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,13 +14,18 @@
             margin: 0 auto;
             padding: 20px;
         }
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             color: #1a73e8;
         }
+
         figure {
             margin: 20px 0;
             text-align: center;
         }
+
         figure img {
             max-width: 100%;
             height: auto;
@@ -27,36 +33,43 @@
             margin: 10px auto;
             border-radius: 4px;
         }
+
         figcaption {
             font-size: 0.875em;
             color: #555;
             font-style: italic;
             margin-top: 4px;
         }
+
         .img-group {
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
             justify-content: center;
         }
+
         .img-group figure {
             flex: 1 1 200px;
             max-width: 340px;
         }
+
         code {
             background-color: #f4f4f4;
             padding: 2px 5px;
             border-radius: 3px;
         }
+
         ul {
             margin-bottom: 20px;
         }
+
         .note {
             background-color: #fff9c4;
             padding: 15px;
             border-left: 5px solid #fbc02d;
             margin: 20px 0;
         }
+
         nav.sumario {
             background-color: #f0f4ff;
             padding: 15px 20px;
@@ -64,37 +77,83 @@
             margin: 20px 0;
             border-radius: 4px;
         }
+
         nav.sumario p {
             margin: 0 0 8px 0;
             font-weight: bold;
         }
+
         nav.sumario ul {
             margin: 0;
         }
+
         nav.sumario a {
             color: #1a73e8;
             text-decoration: none;
         }
+
         nav.sumario a:hover {
             text-decoration: underline;
         }
+
+        .metadata {
+            background-color: #f0f4ff;
+            padding: 15px 20px;
+            border-left: 5px solid #1a73e8;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .metadata p {
+            margin: 8px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            border-top: 1px solid #ddd;
+        }
+
+        footer p {
+            margin: 8px 0;
+        }
+
+        footer img {
+            margin-top: 10px;
+        }
     </style>
 </head>
+
 <body>
 
     <header>
-        <h1>Acessibilidade e Inclusão Digital - Google Calendar</h1>
+        <h1>Acessibilidade e Inclusão Digital - Ferramentas de Organização</h1>
+        <div class="metadata">
+            <p><strong>Autores:</strong> Gabriel, Giovane e João</p>
+            <p><strong>Coordenador:</strong> Leonelo</p>
+            <p><strong>Licença:</strong> <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"
+                    target="_blank" rel="noopener noreferrer">Creative Commons Atribuição-CompartilhaIgual 4.0
+                    Internacional (CC BY-SA 4.0)</a></p>
+        </div>
     </header>
 
     <section id="apresentacao">
         <h2>Sobre este guia</h2>
-        <p>Este material foi criado para ajudar qualquer pessoa a dar os primeiros passos com ferramentas digitais de organização. O objetivo é mostrar, passo a passo e com imagens, como usar cada ferramenta de forma simples, sem complicação.</p>
-        <p>Cada seção traz instruções claras com capturas de tela para facilitar o acompanhamento. Você pode ler na ordem ou ir direto para a parte que precisar.</p>
+        <p>Este material foi criado para ajudar qualquer pessoa a dar os primeiros passos com ferramentas digitais de
+            organização. O objetivo é mostrar, passo a passo e com imagens, como usar cada ferramenta de forma simples,
+            sem complicação.</p>
+        <p>Cada seção traz instruções claras com capturas de tela para facilitar o acompanhamento. Você pode ler na
+            ordem ou ir direto para a parte que precisar.</p>
         <nav class="sumario">
             <p>O que você vai encontrar neste guia:</p>
             <ul>
-                <li><a href="#google-calendar">Google Calendar</a> – como criar compromissos, organizar sua agenda e usar o Google Keep.</li>
-                <li><a href="#clickup">ClickUp</a> – como gerenciar tarefas. <em>(em breve – material em vídeo)</em></li>
+                <li><a href="#google-calendar">Google Calendar</a> – como criar compromissos, organizar sua agenda e
+                    usar o Google Keep.</li>
+                <li><a href="#clickup">ClickUp</a> – como gerenciar tarefas. <em>(em breve – material em vídeo)</em>
+                </li>
             </ul>
         </nav>
     </section>
@@ -103,16 +162,25 @@
 
     <section id="google-calendar">
         <h2>1. Configurações Iniciais</h2>
-        <p>Ao criar uma conta no Google, você obtém acesso a diversas ferramentas gratuitas. Para este guia, utilizaremos o <strong>Google Calendar</strong> (ou Google Agenda). O processo é semelhante em navegadores como Chrome, Firefox ou Edge, mas utilizaremos o Google Chrome como base.</p>
+        <p>Ao criar uma conta no Google, você obtém acesso a diversas ferramentas gratuitas. Para este guia,
+            utilizaremos o <strong>Google Calendar</strong> (ou Google Agenda). O processo é semelhante em navegadores
+            como Chrome, Firefox ou Edge, mas utilizaremos o Google Chrome como base.</p>
 
-        <p>Se você ainda não tem uma conta, acesse <a href="https://google.com" target="_blank" rel="noopener noreferrer">google.com</a> e clique em <strong>"Fazer login"</strong> no canto superior direito. Selecione <strong>"Criar conta"</strong> e siga as instruções. Com o login feito, acesse <a href="https://calendar.google.com" target="_blank" rel="noopener noreferrer">calendar.google.com</a>.</p>
+        <p>Se você ainda não tem uma conta, acesse <a href="https://google.com" target="_blank"
+                rel="noopener noreferrer">google.com</a> e clique em <strong>"Fazer login"</strong> no canto superior
+            direito. Selecione <strong>"Criar conta"</strong> e siga as instruções. Com o login feito, acesse <a
+                href="https://calendar.google.com" target="_blank" rel="noopener noreferrer">calendar.google.com</a>.
+        </p>
 
         <figure>
             <img src="./img/img_1.png" alt="Captura de tela da interface principal do Google Agenda">
             <figcaption>Figura 1 – Interface principal do Google Agenda depois de fazer login.</figcaption>
         </figure>
 
-        <p>No canto inferior esquerdo, na seção <strong>"Minhas agendas"</strong>, você verá uma agenda padrão com o seu nome. Caso queira criar uma agenda nova para separar seus compromissos (por exemplo, uma agenda para atividades pessoais e outra para atividades da escola), clique no símbolo <strong>"+"</strong> em <strong>"Outras agendas"</strong>.</p>
+        <p>No canto inferior esquerdo, na seção <strong>"Minhas agendas"</strong>, você verá uma agenda padrão com o seu
+            nome. Caso queira criar uma agenda nova para separar seus compromissos (por exemplo, uma agenda para
+            atividades pessoais e outra para atividades da escola), clique no símbolo <strong>"+"</strong> em
+            <strong>"Outras agendas"</strong>.</p>
 
         <div class="img-group">
             <figure>
@@ -125,18 +193,24 @@
             </figure>
         </div>
 
-        <p>Você será redirecionado para uma tela de configuração. Preencha o nome da agenda e, se quiser, uma descrição. Confira se o <strong>fuso horário</strong> (o horário da sua região – para o Brasil, deve aparecer "America/Sao_Paulo") está correto e clique em <strong>"Criar agenda"</strong>.</p>
+        <p>Você será redirecionado para uma tela de configuração. Preencha o nome da agenda e, se quiser, uma descrição.
+            Confira se o <strong>fuso horário</strong> (o horário da sua região – para o Brasil, deve aparecer
+            "America/Sao_Paulo") está correto e clique em <strong>"Criar agenda"</strong>.</p>
 
         <figure>
             <img src="./img/img_4.png" alt="Tela de criação de nova agenda com campos de Nome e Descrição">
-            <figcaption>Figura 4 – Tela de configuração da nova agenda, com campos de nome, descrição e fuso horário.</figcaption>
+            <figcaption>Figura 4 – Tela de configuração da nova agenda, com campos de nome, descrição e fuso horário.
+            </figcaption>
         </figure>
 
-        <p>Ao retornar à tela principal, sua nova agenda aparecerá na lista. Para ativá-la e ver seus compromissos, certifique-se de que o quadrado ao lado do nome dela está marcado. Se ela sumir da tela por acidente, basta clicar no nome dela na lista para reativá-la.</p>
+        <p>Ao retornar à tela principal, sua nova agenda aparecerá na lista. Para ativá-la e ver seus compromissos,
+            certifique-se de que o quadrado ao lado do nome dela está marcado. Se ela sumir da tela por acidente, basta
+            clicar no nome dela na lista para reativá-la.</p>
 
         <figure>
             <img src="./img/img_5.png" alt="Lista de agendas com a 'Agenda de Teste' selecionada">
-            <figcaption>Figura 5 – Lista de agendas no painel esquerdo, com a 'Agenda de Teste' marcada e visível.</figcaption>
+            <figcaption>Figura 5 – Lista de agendas no painel esquerdo, com a 'Agenda de Teste' marcada e visível.
+            </figcaption>
         </figure>
     </section>
 
@@ -148,14 +222,17 @@
 
         <figure>
             <img src="./img/img_6.png" alt="Janela simplificada de criação de evento após clique no horário">
-            <figcaption>Figura 6 – Janela rápida de criação de evento, aberta ao clicar em um horário vazio.</figcaption>
+            <figcaption>Figura 6 – Janela rápida de criação de evento, aberta ao clicar em um horário vazio.
+            </figcaption>
         </figure>
 
-        <p>Outra opção é clicar e arrastar o cursor para definir um intervalo de tempo maior logo de início. Em ambos os casos, você pode clicar em <strong>"Mais opções"</strong> para configurar detalhes importantes.</p>
+        <p>Outra opção é clicar e arrastar o cursor para definir um intervalo de tempo maior logo de início. Em ambos os
+            casos, você pode clicar em <strong>"Mais opções"</strong> para configurar detalhes importantes.</p>
 
         <figure>
             <img src="./img/img_7.png" alt="Janela de criação com intervalo de tempo arrastado e botão 'Mais opções'">
-            <figcaption>Figura 7 – Janela de criação com o intervalo de tempo já definido pelo clique e arraste.</figcaption>
+            <figcaption>Figura 7 – Janela de criação com o intervalo de tempo já definido pelo clique e arraste.
+            </figcaption>
         </figure>
 
         <figure>
@@ -176,7 +253,9 @@
 
         <figure>
             <img src="./img/img_9.png" alt="Detalhe dos campos de data e hora selecionáveis">
-            <figcaption>Figura 9 – Campos de data e hora, que podem ser clicados e editados diretamente. Para ir a uma data distante, clique no campo de data e digite o dia, o mês e o ano, sem precisar navegar mês a mês.</figcaption>
+            <figcaption>Figura 9 – Campos de data e hora, que podem ser clicados e editados diretamente. Para ir a uma
+                data distante, clique no campo de data e digite o dia, o mês e o ano, sem precisar navegar mês a mês.
+            </figcaption>
         </figure>
 
         <p>Embora o Google sugira intervalos de 15 minutos, você pode digitar manualmente o horário que desejar.</p>
@@ -191,10 +270,13 @@
 
         <figure>
             <img src="./img/img_10.png" alt="Menu suspenso de horários com sugestões de 15 em 15 minutos">
-            <figcaption>Figura 10 – Menu de sugestões de horário, com opções de 15 em 15 minutos. Você também pode digitar o horário diretamente no campo.</figcaption>
+            <figcaption>Figura 10 – Menu de sugestões de horário, com opções de 15 em 15 minutos. Você também pode
+                digitar o horário diretamente no campo.</figcaption>
         </figure>
 
-        <p>Se a atividade durar o dia todo, marque a opção <strong>"Dia inteiro"</strong>. Para atividades que acontecem rotineiramente, clique em <strong>"Não se repete"</strong> para ver as opções de repetição ou selecione <strong>"Personalizar"</strong> para configurar do seu jeito.</p>
+        <p>Se a atividade durar o dia todo, marque a opção <strong>"Dia inteiro"</strong>. Para atividades que acontecem
+            rotineiramente, clique em <strong>"Não se repete"</strong> para ver as opções de repetição ou selecione
+            <strong>"Personalizar"</strong> para configurar do seu jeito.</p>
 
         <div class="img-group">
             <figure>
@@ -207,32 +289,40 @@
             </figure>
         </div>
 
-        <p>Na tela de personalização, você define os dias da semana e quando a repetição deve parar: em uma data específica ou após um número de ocorrências.</p>
+        <p>Na tela de personalização, você define os dias da semana e quando a repetição deve parar: em uma data
+            específica ou após um número de ocorrências.</p>
 
         <div class="note">
-            <strong>O que é recorrência personalizada?</strong> É quando você configura um evento para se repetir de um jeito específico, por exemplo, toda segunda e quarta-feira, ou só durante as primeiras duas semanas do mês.
+            <strong>O que é recorrência personalizada?</strong> É quando você configura um evento para se repetir de um
+            jeito específico, por exemplo, toda segunda e quarta-feira, ou só durante as primeiras duas semanas do mês.
         </div>
 
         <figure>
             <img src="./img/img_13.png" alt="Tela de 'Recorrência personalizada' com seleção de dias e data de término">
-            <figcaption>Figura 13 – Tela de recorrência personalizada, onde é possível escolher os dias da semana e quando a repetição deve encerrar.</figcaption>
+            <figcaption>Figura 13 – Tela de recorrência personalizada, onde é possível escolher os dias da semana e
+                quando a repetição deve encerrar.</figcaption>
         </figure>
 
         <h3>2.2 Configurando Notificações e Estilo</h3>
-        <p>Para não esquecer seus compromissos, utilize o botão <strong>"Adicionar notificação"</strong>. Você pode adicionar vários lembretes e escolher entre notificações no navegador ou no celular, ou por e-mail.</p>
+        <p>Para não esquecer seus compromissos, utilize o botão <strong>"Adicionar notificação"</strong>. Você pode
+            adicionar vários lembretes e escolher entre notificações no navegador ou no celular, ou por e-mail.</p>
 
         <div class="img-group">
             <figure>
                 <img src="./img/img_14.png" alt="Campos de notificação configurados com tempos diferentes">
-                <figcaption>Figura 14 – Exemplo de notificações configuradas com antecedências diferentes para o mesmo evento.</figcaption>
+                <figcaption>Figura 14 – Exemplo de notificações configuradas com antecedências diferentes para o mesmo
+                    evento.</figcaption>
             </figure>
             <figure>
-                <img src="./img/img_15.png" alt="Campo para escolher entre notificações no navegador/celular ou por e-mail">
-                <figcaption>Figura 15 – Opção para escolher o tipo de notificação: pelo dispositivo ou por e-mail.</figcaption>
+                <img src="./img/img_15.png"
+                    alt="Campo para escolher entre notificações no navegador/celular ou por e-mail">
+                <figcaption>Figura 15 – Opção para escolher o tipo de notificação: pelo dispositivo ou por e-mail.
+                </figcaption>
             </figure>
         </div>
 
-        <p>Você também pode atribuir cores às atividades para organizá-las visualmente. Após finalizar, clique em <strong>"Salvar"</strong>.</p>
+        <p>Você também pode atribuir cores às atividades para organizá-las visualmente. Após finalizar, clique em
+            <strong>"Salvar"</strong>.</p>
 
         <figure>
             <img src="./img/img_16.png" alt="Seleção de cores para o evento">
@@ -244,11 +334,13 @@
 
     <section>
         <h2>3. Navegação e Modos de Visualização</h2>
-        <p>Você pode alterar a forma como enxerga sua agenda para facilitar o planejamento. No canto superior direito, clique em <strong>"Semana"</strong> para abrir outras opções, como "Dia", "Mês" ou "Programação".</p>
+        <p>Você pode alterar a forma como enxerga sua agenda para facilitar o planejamento. No canto superior direito,
+            clique em <strong>"Semana"</strong> para abrir outras opções, como "Dia", "Mês" ou "Programação".</p>
 
         <figure>
             <img src="./img/img_17.png" alt="Menu de alteração de visualização (Dia, Semana, Mês, etc.)">
-            <figcaption>Figura 17 – Menu de modos de visualização da agenda: Dia, Semana, Mês ou Programação.</figcaption>
+            <figcaption>Figura 17 – Menu de modos de visualização da agenda: Dia, Semana, Mês ou Programação.
+            </figcaption>
         </figure>
     </section>
 
@@ -256,21 +348,26 @@
 
     <section>
         <h2>4. Integração com o Google Keep</h2>
-        <p>O <a href="https://keep.google.com" target="_blank" rel="noopener noreferrer">keep.google.com</a> funciona como um bloco de notas integrado. Você pode acessá-lo diretamente pelo ícone lateral direito no Calendar.</p>
+        <p>O <a href="https://keep.google.com" target="_blank" rel="noopener noreferrer">keep.google.com</a> funciona
+            como um bloco de notas integrado. Você pode acessá-lo diretamente pelo ícone lateral direito no Calendar.
+        </p>
 
         <figure>
             <img src="./img/img_18.png" alt="Barra lateral direita com o ícone do Google Keep destacado">
-            <figcaption>Figura 18 – Barra lateral direita do Google Calendar com o ícone do Google Keep em destaque.</figcaption>
+            <figcaption>Figura 18 – Barra lateral direita do Google Calendar com o ícone do Google Keep em destaque.
+            </figcaption>
         </figure>
 
-        <p>Para vincular uma nota a uma atividade, primeiro clique no evento na sua agenda e depois no ícone do Keep para criar a nota. A nota ficará vinculada automaticamente àquele compromisso específico.</p>
+        <p>Para vincular uma nota a uma atividade, primeiro clique no evento na sua agenda e depois no ícone do Keep
+            para criar a nota. A nota ficará vinculada automaticamente àquele compromisso específico.</p>
 
         <figure>
             <img src="./img/img_19.png" alt="Nota do Keep vinculada ao evento de agenda">
             <figcaption>Figura 19 – Nota criada no Keep já vinculada ao evento selecionado na agenda.</figcaption>
         </figure>
 
-        <p>Dentro do Keep, você ainda pode adicionar <strong>caixas de seleção</strong> para transformar suas notas em listas de tarefas práticas.</p>
+        <p>Dentro do Keep, você ainda pode adicionar <strong>caixas de seleção</strong> para transformar suas notas em
+            listas de tarefas práticas.</p>
 
         <div class="img-group">
             <figure>
@@ -283,7 +380,8 @@
             </figure>
             <figure>
                 <img src="./img/img_22.png" alt="Caixa de seleção inserida na nota">
-                <figcaption>Figura 22 – Caixas de seleção adicionadas à nota, transformando-a em uma lista de tarefas.</figcaption>
+                <figcaption>Figura 22 – Caixas de seleção adicionadas à nota, transformando-a em uma lista de tarefas.
+                </figcaption>
             </figure>
         </div>
     </section>
@@ -292,16 +390,30 @@
 
     <section>
         <h2>Resumindo o que vimos no Google Calendar</h2>
-        <p>Ao longo deste guia, você aprendeu as principais funções do Google Calendar: como criar e ativar agendas, adicionar compromissos com horário, data e repetição, configurar lembretes para não esquecer nada e usar o Google Keep para fazer anotações vinculadas aos seus eventos.</p>
-        <p>Se tiver dúvida em algum passo, você pode voltar a qualquer parte deste guia e seguir as instruções de novo. Cada etapa foi pensada para ser feita no seu tempo.</p>
+        <p>Ao longo deste guia, você aprendeu as principais funções do Google Calendar: como criar e ativar agendas,
+            adicionar compromissos com horário, data e repetição, configurar lembretes para não esquecer nada e usar o
+            Google Keep para fazer anotações vinculadas aos seus eventos.</p>
+        <p>Se tiver dúvida em algum passo, você pode voltar a qualquer parte deste guia e seguir as instruções de novo.
+            Cada etapa foi pensada para ser feita no seu tempo.</p>
     </section>
 
     <hr>
 
     <section id="clickup">
         <h2>ClickUp</h2>
-        <p><em>Esta seção está em preparação. Em breve, você vai encontrar aqui um guia em vídeo sobre como usar o ClickUp para organizar tarefas e acompanhar projetos.</em></p>
+        <p><em>Esta seção está em preparação. Em breve, você vai encontrar aqui um guia em vídeo sobre como usar o
+                ClickUp para organizar tarefas e acompanhar projetos.</em></p>
     </section>
 
+    <footer>
+        <p>Este guia é um Recurso Educacional Aberto (REA).</p>
+        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+            rel="noopener noreferrer">
+            <img alt="Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional" style="border-width:0"
+                src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" width="88" height="31">
+        </a>
+    </footer>
+
 </body>
+
 </html>
