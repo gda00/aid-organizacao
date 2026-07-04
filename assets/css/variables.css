@@ -9,14 +9,14 @@
     /* cores */
     --color-text: #333;
     --color-muted: #555;
-    --color-primary: #6162aa;
+    --color-primary: #6869b1;
     --color-bg-box: #f0f4ff;
     --color-bg-note: #fff9c4;
     --color-bg-code: #f4f4f4;
 
     /* bordas */
     --border-note: 5px solid #fbc02d;
-    --border-summary: 5px solid #1a73e8;
+    --border-summary: 5px solid #858ebb;
     --border-footer: 1px solid #ddd;
 
     /* espaçamentos */
