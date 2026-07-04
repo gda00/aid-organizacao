@@ -134,10 +134,23 @@ footer {
 
     &:hover {
         text-decoration: underline;
+        
     }
+
 }
 
 
+.lista-colunas {
+    border: var(--line-sm) var(--color-primary) solid;
+    padding: 30px 50px;
+    color: var(--color-primary);
+    font-weight: bold;
+
+    & ol {
+        color: var(--color-text);
+        font-weight: 100;
+    }
+}
 
 }
 

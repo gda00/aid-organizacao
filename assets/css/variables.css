@@ -6,6 +6,7 @@
     --font-size-footer: 0.9em;
     --line-height: 1.6;
 
+
     /* cores */
     --color-text: #333;
     --color-muted: #555;
@@ -26,4 +27,7 @@
     --margin-figure: 20px 0;
     --border-radius: 4px;
     --gap-img-group: 12px;
+    --line-sm: 1px;
+    --line-md: 5px;
+    --line-lg: 20px;
 }

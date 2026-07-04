@@ -253,26 +253,107 @@
         <section id="clickup" class="dropdown-section">
             <h2 class="dropdown-trigger">2. ClickUp</h2>
             <div class="dropdown-content">
-                <p>Abaixo, você encontrará guias em vídeo demonstrando o uso do ClickUp no ambiente mobile para gerenciar e organizar suas tarefas passo a passo:</p>
-                
-                <div class="video-group">
-                    <figure>
-                        <video class="video-clickup" controls muted playsinline>
-                            <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-A.mp4" type="video/mp4" />
-                            Seu navegador não suporta a reprodução de vídeos.
-                        </video>
-                        <figcaption>Vídeo A - Como criar um espaço no ClickUp e o quadro de tarefas.</figcaption>
-                    </figure>
+                <h3 class="dropdown-trigger">1. Configurações Iniciais </h3>
+                <div class="dropdown-content">
+                    <p>O ClickUp é uma ferramenta de gestão de projetos e organização de fluxos de tarefas. É possível logar na plataforma gratuitamente e criar uma dada quantidade de quadros e automações sem assinar os planos pagos do SaaS. </p> 
+                    <p>Abaixo, você encontrará guias em vídeo demonstrando o uso do ClickUp no ambiente mobile para gerenciar e organizar suas tarefas passo a passo:</p>
                     
+                    <div class="video-group">
+                        <figure>
+                            <video class="video-clickup" controls muted playsinline>
+                                <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-A.mp4" type="video/mp4" />
+                                Seu navegador não suporta a reprodução de vídeos.
+                            </video>
+                            <figcaption>Vídeo A - Como criar um espaço no ClickUp e o quadro de tarefas.</figcaption>
+                        </figure>
+                        
+                        <figure>
+                            <video class="video-clickup" controls muted playsinline>
+                                <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-B.mp4" type="video/mp4" />
+                                Seu navegador não suporta a reprodução de vídeos.
+                            </video>
+                            <figcaption>Vídeo B - Como criar tarefas e editar colunas no ClickUp.</figcaption>
+                        </figure>
+
+                </div>
+                </div>
+                <h3 class="dropdown-trigger">2. Quadro Kanban </h3>
+                <div class="dropdown-content">
+                    <p>Para o caso de uso do projeto, era necessário desenvolver um quadro focado em promover o comprometimento do usuário em cumprir com o que planejou. </p> 
+                    <p>Nessa intenção, a seguinte configuração de colunas foi criada:</p>
+                    <ol class="lista-colunas">
+                        <li>
+                            <label>Inativas, classe clickup de tarefas que não estão em execução</label>
+                            <ol>
+                                <li>Algum dia, tarefas que foram mapeadas mas ainda não possuem uma data para serem feitas</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Ativas, classe clickup de tarefas que estão em execução</label>
+                            <ol>
+                                <li>Semana, tarefas para serem feitas na presente semana</li>
+                                <li>Hoje, tarefas do dia</li>
+                                <li>Agora, tarefa que está sendo ativamente feita nesse momento</li>
+                                <li>Travado/Ajuda, tarefas que paralisaram porque tiveram algum impedimento relacionado à dependências externas ou dificuldades pessoais em resolver</li>
+                            </ol>                            
+                        </li>
+                        <li>
+                            <label>Concluídas, classe clickup de tarefas cuja execução foi de alguma forma concluída.</label>
+                            <ol>
+                                <li>Feito Hoje, tarefas feitas no dia de hoje posicionadas aqui para evidenciar que o usuário está sendo produtivo.</li>
+                                <li>Cancelada, tarefas que, num primeiro momento, não vão mais ser feitas mas podem ser recuperadas caso a siutação mude.</li>
+                                <li>Fechada, tarefas concluídas definitivamente.</li>
+                            </ol>                            
+
+                        </li>
+                    </ol>
+                    <p>Abaixo segue um registro visual da estrutura descrita acima.</p>
                     <figure>
-                        <video class="video-clickup" controls muted playsinline>
-                            <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-B.mp4" type="video/mp4" />
-                            Seu navegador não suporta a reprodução de vídeos.
-                        </video>
-                        <figcaption>Vídeo B - Como criar tarefas e editar colunas no ClickUp.</figcaption>
+                        <img src="assets/img/clickup-tela.png" alt="quadro kanban" width="100%">
+                        <figcaption>O quadro kanban é conhecido por sua interatividade de mover cards em sequência conforme as tarefas avançam em cada status</figcaption>
+                    </figure>                    
+                </div>
+                <h3 class="dropdown-trigger">3. Campos, Filtros, Status e Ordenação</h3>
+                <div class="dropdown-content">
+                    <p>São esses os seguintes campos ClickUp padrão que foram escolhidos para o quadro do ambiente de organização:</p>
+                    <ol class="lista-colunas">
+                        <label>Data de início e vencimento</label>
+                        <ol>
+                            <li>Orientar o sistema de notificações e exibição de tarefas</li>
+                            <li>Ordenar as tarefas da mais próxima de vencer para a mais distante e vice versa</li>
+                        </ol> 
+                        <label>Prioridade</label>
+                        <ol>
+                            <li>Discernir a importância de cada tarefa num código comum, baixa > normal > alta > urgente</li>
+                            <li>Explicitar a informação de informação com um código de cores</li>
+                            <li>Auxiliar na decisão de próxima tarefa a ser feita</li>
+                        </ol> 
+                        <label>Etiqueta</label>
+                        <ol>
+                            <li>Mapear o grupo de tarefas a qual pertence àquela tarefa (saúde, compras, utfpr, outros)</li>
+                            <li>Filtrar o quadro para mostrar apenas aquele grupo de tarefas</li>
+                            <li>Possibilitar a padronização de tarefas (Não seria necessario criar um título para diferente para duas tarefas iguais quando apenas o grupo dela varia mas não a atividade em si)</li>
+                        </ol> 
+                        <label>Etiqueta</label>
+                        <ol>
+                            <li>Mapear o grupo de tarefas a qual pertence àquela tarefa (saúde, compras, utfpr, outros)</li>
+                            <li>Filtrar o quadro para mostrar apenas aquele grupo de tarefas</li>
+                            <li>Possibilitar a padronização de tarefas (Não seria necessario criar um título para diferente para duas tarefas iguais quando apenas o grupo dela varia mas não a atividade em si)</li>
+                        </ol> 
+                        <label>Responsável</label>
+                        <ol>
+                            <li>Discernir que pessoa realizará aquela tarefa, possibilitando trabalhos em grupo ao compartilhar o quadro</li>
+                            <li>Filtrar para que seja possível ver tarefas apenas daquela pessoa</li>
+                        </ol> 
+                    </ol>
+                    <p>E por falar em filtros e ordenação, essa é justamente a proposta dos quadros kanban do ClikcUp: Visibilidade e Agrupamento. Na porção superior da tela é possível montar cláusulas lógicas com os filtros disponíveis e ordenar as colunas de tarefas de acordo com os campos e parâmetros desejados.</p>
+                    <figure>
+                        <img src="assets/img/print-filtro.png" alt="filtros">
+                        <figcaption>Além de filtros e ordenações é possível personalizar a formatação e exibição de elementos no quadro</figcaption>
                     </figure>
                 </div>
             </div>
+
         </section>
 
         <hr>
