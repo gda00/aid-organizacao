@@ -1,0 +1,29 @@
+:root {
+
+    /* fontes */
+    --font-family: Arial, sans-serif;
+    --font-size-caption: 0.875em;
+    --font-size-footer: 0.9em;
+    --line-height: 1.6;
+
+    /* cores */
+    --color-text: #333;
+    --color-muted: #555;
+    --color-primary: #6162aa;
+    --color-bg-box: #f0f4ff;
+    --color-bg-note: #fff9c4;
+    --color-bg-code: #f4f4f4;
+
+    /* bordas */
+    --border-note: 5px solid #fbc02d;
+    --border-summary: 5px solid #1a73e8;
+    --border-footer: 1px solid #ddd;
+
+    /* espaçamentos */
+    --max-width: 800px;
+    --padding-body: 20px;
+    --padding-box: 15px;
+    --margin-figure: 20px 0;
+    --border-radius: 4px;
+    --gap-img-group: 12px;
+}
