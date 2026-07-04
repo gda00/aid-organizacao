@@ -1,2 +1,2 @@
-# aid-google-calendar
-Acessibilidade e Inclusão Digital - Google Calendar
+# aid-organizacao
+Acessibilidade e Inclusão Digital - Ferramentas de Organização
