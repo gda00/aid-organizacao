@@ -51,6 +51,8 @@ body {
         font-style: italic;
         margin-top: 4px;
     }
+
+    
     
     .img-group {
         display: flex;
@@ -99,7 +101,7 @@ body {
         }
     
         & a {
-            color: var(--color-primary);
+            color: var(--color-contrast);
             text-decoration: none;
     
             &:hover {
@@ -113,6 +115,11 @@ body {
 
 .figura-100 {
     width: 100%;
+}
+
+.li-link a{
+    color: rgb(255, 251, 0) ; 
+    background-color: red;
 }
 
 footer {
