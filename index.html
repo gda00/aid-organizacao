@@ -21,7 +21,7 @@
             </ul> 
             </div>
             <div class="metadata-item"><strong>Coordenador:</strong> Leonelo Dell Anhol</div>
-            <div class="metadata-item"><strong>Licença:</strong> <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Atribuição-Compartilha Igual 4.0 Internacional (CC BY-SA 4.0)</a></div>
+            <div class="metadata-item"><strong>Licença:</strong> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener noreferrer">Creative Commons Atribuição-Compartilha Igual 4.0 Internacional (CC BY-SA 4.0)</a></div>
         </div>
     </header>
 
@@ -108,7 +108,7 @@
                         <figcaption>Figura 8 - Tela completa de edição do evento, acessada pelo botão 'Mais opções'.</figcaption>
                     </figure>
 
-                    <p>Nesta tela, lembre-se de工夫 configurar os pontos essenciais:</p>
+                    <p>Nesta tela, lembre-se de configurar os pontos essenciais:</p>
                     <ul>
                         <li><strong>Título:</strong> Dê um nome claro à sua atividade.</li>
                         <li><strong>Horário e Repetição:</strong> Defina quando ocorre e se o evento se repete.</li>
@@ -261,7 +261,7 @@
                     <div class="video-group">
                         <figure>
                             <video class="video-clickup" controls muted playsinline>
-                                <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-A.mp4" type="video/mp4" />
+                                <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-A.mp4" type="video/mp4">
                                 Seu navegador não suporta a reprodução de vídeos.
                             </video>
                             <figcaption>Vídeo A - Como criar um espaço no ClickUp e o quadro de tarefas.</figcaption>
@@ -269,7 +269,7 @@
                         
                         <figure>
                             <video class="video-clickup" controls muted playsinline>
-                                <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-B.mp4" type="video/mp4" />
+                                <source src="https://raw.githubusercontent.com/joaosucupira/video-assets/main/video-clickup-mobile-B.mp4" type="video/mp4">
                                 Seu navegador não suporta a reprodução de vídeos.
                             </video>
                             <figcaption>Vídeo B - Como criar tarefas e editar colunas no ClickUp.</figcaption>
@@ -308,8 +308,8 @@
                         </li>
                     </ol>
                     <p>Abaixo segue um registro visual da estrutura descrita acima.</p>
-                    <figure>
-                        <img src="assets/img/clickup-tela.png" alt="quadro kanban" width="100%">
+                    <figure class="figura-100">
+                        <img src="assets/img/clickup-tela.png" alt="quadro kanban">
                         <figcaption>O quadro kanban é conhecido por sua interatividade de mover cards em sequência conforme as tarefas avançam em cada status</figcaption>
                     </figure>                    
                 </div>
@@ -317,34 +317,44 @@
                 <div class="dropdown-content">
                     <p>São esses os seguintes campos ClickUp padrão que foram escolhidos para o quadro do ambiente de organização:</p>
                     <ol class="lista-colunas">
-                        <label>Data de início e vencimento</label>
-                        <ol>
-                            <li>Orientar o sistema de notificações e exibição de tarefas</li>
-                            <li>Ordenar as tarefas da mais próxima de vencer para a mais distante e vice versa</li>
-                        </ol> 
-                        <label>Prioridade</label>
-                        <ol>
-                            <li>Discernir a importância de cada tarefa num código comum, baixa > normal > alta > urgente</li>
-                            <li>Explicitar a informação de informação com um código de cores</li>
-                            <li>Auxiliar na decisão de próxima tarefa a ser feita</li>
-                        </ol> 
-                        <label>Etiqueta</label>
-                        <ol>
-                            <li>Mapear o grupo de tarefas a qual pertence àquela tarefa (saúde, compras, utfpr, outros)</li>
-                            <li>Filtrar o quadro para mostrar apenas aquele grupo de tarefas</li>
-                            <li>Possibilitar a padronização de tarefas (Não seria necessario criar um título para diferente para duas tarefas iguais quando apenas o grupo dela varia mas não a atividade em si)</li>
-                        </ol> 
-                        <label>Etiqueta</label>
-                        <ol>
-                            <li>Mapear o grupo de tarefas a qual pertence àquela tarefa (saúde, compras, utfpr, outros)</li>
-                            <li>Filtrar o quadro para mostrar apenas aquele grupo de tarefas</li>
-                            <li>Possibilitar a padronização de tarefas (Não seria necessario criar um título para diferente para duas tarefas iguais quando apenas o grupo dela varia mas não a atividade em si)</li>
-                        </ol> 
-                        <label>Responsável</label>
-                        <ol>
-                            <li>Discernir que pessoa realizará aquela tarefa, possibilitando trabalhos em grupo ao compartilhar o quadro</li>
-                            <li>Filtrar para que seja possível ver tarefas apenas daquela pessoa</li>
-                        </ol> 
+                        <li>
+                            <label>Data de início e vencimento</label>
+                            <ol>
+                                <li>Orientar o sistema de notificações e exibição de tarefas</li>
+                                <li>Ordenar as tarefas da mais próxima de vencer para a mais distante e vice versa</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Prioridade</label>
+                            <ol>
+                                <li>Discernir a importância de cada tarefa num código comum, baixa > normal > alta > urgente</li>
+                                <li>Explicitar a informação de informação com um código de cores</li>
+                                <li>Auxiliar na decisão de próxima tarefa a ser feita</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Etiqueta</label>
+                            <ol>
+                                <li>Mapear o grupo de tarefas a qual pertence àquela tarefa (saúde, compras, utfpr, outros)</li>
+                                <li>Filtrar o quadro para mostrar apenas aquele grupo de tarefas</li>
+                                <li>Possibilitar a padronização de tarefas (Não seria necessario criar um título para diferente para duas tarefas iguais quando apenas o grupo dela varia mas não a atividade em si)</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Etiqueta</label>
+                            <ol>
+                                <li>Mapear o grupo de tarefas a qual pertence àquela tarefa (saúde, compras, utfpr, outros)</li>
+                                <li>Filtrar o quadro para mostrar apenas aquele grupo de tarefas</li>
+                                <li>Possibilitar a padronização de tarefas (Não seria necessario criar um título para diferente para duas tarefas iguais quando apenas o grupo dela varia mas não a atividade em si)</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Responsável</label>
+                            <ol>
+                                <li>Discernir que pessoa realizará aquela tarefa, possibilitando trabalhos em grupo ao compartilhar o quadro</li>
+                                <li>Filtrar para que seja possível ver tarefas apenas daquela pessoa</li>
+                            </ol>
+                        </li>
                     </ol>
                     <p>E por falar em filtros e ordenação, essa é justamente a proposta dos quadros kanban do ClikcUp: Visibilidade e Agrupamento. Na porção superior da tela é possível montar cláusulas lógicas com os filtros disponíveis e ordenar as colunas de tarefas de acordo com os campos e parâmetros desejados.</p>
                     <figure>
@@ -367,57 +377,57 @@
                     <p>Para utilizar o template que criamos, basta entrar no link abaixo, criar ou acessar sua conta pessoal e, em seguida, selecionar os três pontos que aparecem ao passar o mouse sobre o nome da página, criando uma cópia para o seu Notion pessoal, assim como no print abaixo.</p>
                         <p><a href="https://app.notion.com/p/Di-rio-Interativo-38ba7e7e11ba81ceb926c21370901458?source=copy_link">Link do template</a></p>
                         <figure>
-                            <img src="assets/img/copiar-notion.png" alt="copiar notion" width="100%">
+                            <img src="assets/img/copiar-notion.png" alt="copiar notion" style="width: 100%;">
                             <figcaption>Print da opção de duplicar, destacada em vermelho, que pode ser encontrada ao clicar nos três pontos que aparecem ao passar o mouse sobre o nome da página, à esquerda da tela.</figcaption>
                         </figure>
                         <figure>
-                            <img src="assets/img/notion_dashboard.png" alt="quadro notion" width="100%">
+                            <img src="assets/img/notion_dashboard.png" alt="quadro notion" style="width: 100%;">
                             <figcaption>O quadro Notion serve para ter uma visão macro de sua organização, podendo registrar hábitos e tarefas.</figcaption>
                         </figure>
                 </div>    
             
-            <div>
-            <h3 class="dropdown-trigger">2. Dashboard</h3>
-            <div class="dropdown-content">
-                <p>No projeto, a ideia era essa página servir como um centralizador de informações relevantes para a organização pessoal do Cristian.</p>
-                <p>Com isso, a página criada exibe as seguintes informações:</p>
-                <ol class="lista-colunas">
-                    <li>
-                        <label>Missões do Dia (lista simples para anotar as tarefas do dia)</label>
-                        <ol>
-                            <li>Lista estilo <i>to-do list</i> feita para anotar as tarefas diárias e acompanhar seu progresso.</li>
-                        </ol>
-                    </li>
-                    <li>
-                        <label>Reflexões (links para o diário e a retrospectiva semanal)</label>
-                        <ol>
-                            <li>O Diário seria onde é possível fazer notas diárias, e ele as organizaria automaticamente (não foi implementado).</li>
-                            <li>A Retrospectiva Semanal seria uma visão com gráficos das informações relevantes escolhidas por quem utiliza, como tarefas planejadas versus tarefas realizadas.</li>
-                        </ol>
-                    </li>
-                    <li>
-                        <label>Futuro (<i>backlog</i> de tarefas sem data definida)</label>
-                        <ol>
-                            <li>Planilha que permite a criação e o armazenamento de tarefas para datas futuras ou sem datas ainda.</li>
-                        </ol>
-                    </li>
-                    <li>
-                        <label>Painel de Crises (gráfico de pizza que demonstra relação entre dias com e sem crises)</label>
-                        <ol>
-                            <li>Gráfico de pizza que permite demonstrar dados retirados das notas; no exemplo utilizado, os dados vieram de notas diárias.</li>
-                        </ol>
-                    </li>
-                    <li>
-                        <label>Calendário (para anotar e verificar distribuição de eventos)</label>
-                    </li>
-                </ol>
+                <h3 class="dropdown-trigger">2. Dashboard</h3>
+                <div class="dropdown-content">
+                    <p>No projeto, a ideia era essa página servir como um centralizador de informações relevantes para a organização pessoal do Cristian.</p>
+                    <p>Com isso, a página criada exibe as seguintes informações:</p>
+                    <ol class="lista-colunas">
+                        <li>
+                            <label>Missões do Dia (lista simples para anotar as tarefas do dia)</label>
+                            <ol>
+                                <li>Lista estilo <i>to-do list</i> feita para anotar as tarefas diárias e acompanhar seu progresso.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Reflexões (links para o diário e a retrospectiva semanal)</label>
+                            <ol>
+                                <li>O Diário seria onde é possível fazer notas diárias, e ele as organizaria automaticamente (não foi implementado).</li>
+                                <li>A Retrospectiva Semanal seria uma visão com gráficos das informações relevantes escolhidas por quem utiliza, como tarefas planejadas versus tarefas realizadas.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Futuro (<i>backlog</i> de tarefas sem data definida)</label>
+                            <ol>
+                                <li>Planilha que permite a criação e o armazenamento de tarefas para datas futuras ou sem datas ainda.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Painel de Crises (gráfico de pizza que demonstra relação entre dias com e sem crises)</label>
+                            <ol>
+                                <li>Gráfico de pizza que permite demonstrar dados retirados das notas; no exemplo utilizado, os dados vieram de notas diárias.</li>
+                            </ol>
+                        </li>
+                        <li>
+                            <label>Calendário (para anotar e verificar distribuição de eventos)</label>
+                        </li>
+                    </ol>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
         <p>Este guia é um Recurso Educacional Aberto (REA).</p>
-        <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">
+        <a rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
             <img alt="Licença Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" width="88" height="31">
         </a>
     </footer>

@@ -111,6 +111,10 @@ body {
 
 }
 
+.figura-100 {
+    width: 100%;
+}
+
 footer {
     margin-top: 40px;
     padding: 20px 0;
